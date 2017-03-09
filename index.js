@@ -1,7 +1,12 @@
 'use strict';
 
-var package2 = function () {
-  console.log('package2 ??');
-};
+module.exports = function () {
+  var span = document.createElement('span');
+  span.setAttribute('style', 'color:red');
+  span.textContent = 'Component : npm-test-pakcage2';
 
-module.exports = package2;
+  var div = document.createElement('div');
+  div.appendChild(span);
+
+  return div;
+};
