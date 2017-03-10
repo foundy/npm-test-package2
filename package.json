@@ -1,5 +1,5 @@
 {
-  "name": "npm-test-package2",
+  "name": "workflow-test-package2",
   "version": "1.0.0",
   "description": "NPM 테스트용 패키지 2",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/foundy/npm-test-package2.git"
+    "url": "git+https://github.com/foundy/workflow-test-package2.git"
   },
   "author": "foundy <foundy@foundy.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/foundy/npm-test-package2/issues"
+    "url": "https://github.com/foundy/workflow-test-package2/issues"
   },
-  "homepage": "https://github.com/foundy/npm-test-package2#readme"
+  "homepage": "https://github.com/foundy/workflow-test-package2#readme"
 }
