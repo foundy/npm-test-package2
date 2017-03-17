@@ -3,13 +3,15 @@
 var common = require('workflow-test-common');
 
 module.exports = function () {
-  var span = document.createElement('span');
-  span.setAttribute('style', 'color:red');
-  span.textContent = 'Component : npm-test-pakcage2';
-  span.textContent += common(span.textContent);
+  var div = document.createElement('span');
+  div.setAttribute('style', 'color:red');
+  div.textContent = 'Component : workflow-test-pakcage2';
 
-  var div = document.createElement('div');
-  div.appendChild(span);
+  var component = document.createElement('div');
+  component.appendChild(div);
 
-  return div;
+  // common
+  component.appendChild(common('workflow-test-package2'));
+
+  return component;
 };
